@@ -1,0 +1,23 @@
+lab3 (master*) » python3 client.py Bob   ~/Documents/python/cmpe273/lab/lab3
+User [Bob] connected to the chat server.
+>Hello World
+>[Bob]: Hello World
+[Alice]: Hi from Alice.
+[Smith]: Hi from Smith.
+
+
+lab3 (master*) » python3 client.py Alice ~/Documents/python/cmpe273/lab/lab3
+User [Alice] connected to the chat server.
+>[Bob]: Hello World
+Hi from Alice.
+>[Alice]: Hi from Alice.
+[Smith]: Hi from Smith.
+
+
+
+lab3 (master*) » python3 client.py Smith ~/Documents/python/cmpe273/lab/lab3
+User [Smith] connected to the chat server.
+>[Bob]: Hello World
+[Alice]: Hi from Alice.
+Hi from Smith.
+>[Smith]: Hi from Smith.
